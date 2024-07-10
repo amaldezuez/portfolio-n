@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar{
+    margin: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo1{
+    height: 150px;
+    width: 185px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    margin-right: 45px;
+    font-size: 30px;
+    transition: all 1s;
+    
+}
+.links:hover{
+    color: blueviolet;
+    font-size:40px ;
+}
+.sec{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 125px 55px;
+}
+.sec-1{
+    padding: 30px;
+    font-size: 20px;
+}
+.name1{
+    font-size: 50px;
+    font-family: font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.nme1{
+    color:brown;
+}
+
+.para1{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.intro-link{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 0px;
+    border-radius: 5px;
+}
+.right-sec{
+    margin-bottom: 25px;
+}
+.rono{
+    height: 60%;
+    width: 40%;
+    position: absolute;
+    bottom: 100px;
+    
+}
+.about{
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    column-gap: 20px;
+    font-weight: bold;
+}
+.abt-img>img{
+    width: 100%;
+    
+}
+
+.abt-contnt>h4{
+    color: blue;
+    
+    
+}
+.abt-contnt>p{
+    text-align: justify;
+    right: 50px;
+}
+
